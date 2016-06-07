@@ -25,7 +25,7 @@
                 <?php else : ?>
                     <div id="logopic">
                         <a href="<?= $view->url()->get() ?>">
-                                <img height="67px" src="<?= $this->escape($logo) ?>" alt="<?= $app->config('system/site')->get('title') ?>">
+                                <img height="67px" src="<?= $this->escape($params['logo']) ?>" alt="<?= $app->config('system/site')->get('title') ?>">
                             </a>
                     </div>
 
